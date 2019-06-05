@@ -1,183 +1,322 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<title>About</title>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="description" content="vCard template project">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="styles/bootstrap-4.1.2/bootstrap.min.css">
-<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" type="text/css" href="plugins/mCustomScrollbar/jquery.mCustomScrollbar.css">
-<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
-<link rel="stylesheet" type="text/css" href="styles/responsive.css">
-</head>
-<body>
+  <head>
+    <title>About</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="vCard template project" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="styles/bootstrap-4.1.2/bootstrap.min.css"
+    />
+    <link
+      href="plugins/font-awesome-4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://kit.fontawesome.com/a20ed44003.js"></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="plugins/mCustomScrollbar/jquery.mCustomScrollbar.css"
+    />
+    <link rel="stylesheet" type="text/css" href="styles/main_styles.css" />
+    <link rel="stylesheet" type="text/css" href="styles/responsive.css" />
+  </head>
+  <body>
+    <div class="super_container">
+      <!-- Header -->
 
-<div class="super_container">
-	
-	<!-- Header -->
+      <header class="header">
+        <div
+          class="header_content d-flex flex-row align-items-center justify-content-start"
+        >
+          <div class="logo">Matthew<span>.</span>Zemek</div>
+          <div
+            class="main_nav d-flex flex-row align-items-end justify-content-start"
+          >
+            <ul
+              class="d-flex flex-row align-items-center justify-content-start"
+            >
+              <li class="active"><a href="index.html">About</a></li>
+              <li><a href="resume.html">Resume</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+            </ul>
+          </div>
+          <!-- Menu -->
+          <div class="menu">
+            <div
+              class="menu_content d-flex flex-row align-items-start justify-content-end"
+            >
+              <div class="hamburger ml-auto">menu</div>
+              <div class="menu_nav text-right">
+                <ul>
+                  <li><a href="index.html">About</a></li>
+                  <li><a href="resume.html">Resume</a></li>
+                  <li><a href="portfolio.html">Portfolio</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
 
-	<header class="header">
-		<div class="header_content d-flex flex-row align-items-center justify-content-start">
-			<div class="logo">Matthew<span>.</span>Zemek</div>
-			<div class="main_nav d-flex flex-row align-items-end justify-content-start">
-				<ul class="d-flex flex-row align-items-center justify-content-start">
-					<li class="active"><a href="index.html">About</a></li>
-					<li><a href="resume.html">Resume</a></li>
-					<li><a href="services.html">Services</a></li>
-					<li><a href="portfolio.html">Portfolio</a></li>
-				</ul>
-			</div>
-			<!-- Menu -->
-	<div class="menu">
-		<div class="menu_content d-flex flex-row align-items-start justify-content-end">
-			<div class="hamburger ml-auto">menu</div>
-			<div class="menu_nav text-right">
-				<ul>
-					<li><a href="index.html">About</a></li>
-					<li><a href="resume.html">Resume</a></li>
-					<li><a href="services.html">Services</a></li>
-					<li><a href="portfolio.html">Portfolio</a></li>
-				</ul>
-			</div>
-		</div>
-	</div>
-		</div>
-	</header>
+      <div class="content_container">
+        <div
+          class="main_content_outer d-flex flex-xl-row flex-column align-items-start justify-content-start"
+        >
+          <!-- General Information -->
+          <div
+            class="general_info d-flex flex-xl-column flex-md-row flex-column"
+          >
+            <div>
+              <div class="general_info_image">
+                <div
+                  class="background_image"
+                  style="background-image:url(images/placeholderme.jpg)"
+                ></div>
+              </div>
+            </div>
+            <div class="general_info_content">
+              <div
+                class="general_info_content_inner mCustomScrollbar"
+                data-mcs-theme="minimal-dark"
+              >
+                <div class="general_info_title">General Information</div>
+                <ul class="general_info_list">
+                  <li
+                    class="d-flex flex-row align-items-center justify-content-start"
+                  >
+                    <div
+                      class="general_info_icon d-flex flex-column align-items-start justify-content-center"
+                    >
+                      <img src="images/icon_1.png" alt="" />
+                    </div>
+                    <div class="general_info_text">
+                      Name: <span>Matthew D. Zemek</span>
+                    </div>
+                  </li>
+                  <li
+                    class="d-flex flex-row align-items-center justify-content-start"
+                  >
+                    <div
+                      class="general_info_icon d-flex flex-column align-items-start justify-content-center"
+                    >
+                      <img src="images/globe_icon.png" alt="" />
+                    </div>
+                    <div class="general_info_text">
+                      Location: <span>Seattle WA</span>
+                    </div>
+                  </li>
+                  <li
+                    class="d-flex flex-row align-items-center justify-content-start"
+                  >
+                    <div
+                      class="general_info_icon d-flex flex-column align-items-start justify-content-center"
+                    >
+                      <img src="images/icon_2.png" alt="" />
+                    </div>
+                    <div class="general_info_text">
+                      Position: <span>Seeking New Employment</span>
+                    </div>
+                  </li>
+                  <li
+                    class="d-flex flex-row align-items-center justify-content-start"
+                  >
+                    <div
+                      class="general_info_icon d-flex flex-column align-items-start justify-content-center"
+                    >
+                      <img src="images/icon_3.png" alt="" />
+                    </div>
+                    <div class="general_info_text">
+                      <a href="mailto:panzemek@gmail.com?subject=Job_Inquiry"
+                        >panzemek@gmail.com</a
+                      >
+                    </div>
+                  </li>
+                  <li
+                    class="d-flex flex-row align-items-center justify-content-start"
+                  >
+                    <div
+                      class="general_info_icon d-flex flex-column align-items-start justify-content-center"
+                    >
+                      <img src="images/icon_4.png" alt="" />
+                    </div>
+                    <div class="general_info_text">+1 206 579 4995</div>
+                  </li>
+                  <li
+                    class="d-flex flex-row align-items-center justify-content-start"
+                  >
+                    <div
+                      class="general_info_icon d-flex flex-column align-items-start justify-content-center"
+                    >
+                      <img src="images/icon_5.png" alt="" />
+                    </div>
+                    <div class="general_info_text">
+                      <a href="https://panzemek.github.io/Matthew-Zemek/"
+                        >https://panzemek.github.io/Matthew-Zemek/</a
+                      >
+                    </div>
+                  </li>
+                  <li
+                    class="d-flex flex-row align-items-center justify-content-start"
+                  >
+                    <div
+                      class="general_info_icon d-flex flex-column align-items-start justify-content-center"
+                    >
+                      <img src="images/social_icon.png" alt="" />
+                    </div>
+                    <div class="general_info_text">
+                      <a
+                        href="https://www.linkedin.com/in/matthew-zemek-89607a117/"
+                        ><i class="fab fa-linkedin fa-lg"></i
+                      ></a>
 
-	<div class="content_container">
-		<div class="main_content_outer d-flex flex-xl-row flex-column align-items-start justify-content-start">
+                      <a href="https://github.com/Panzemek"
+                        ><i class="fab fa-github-square fa-lg"></i
+                      ></a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
 
-			<!-- General Information -->
-			<div class="general_info d-flex flex-xl-column flex-md-row flex-column">
-				<div>
-					<div class="general_info_image">
-						<div class="background_image" style="background-image:url(images/placeholderme.jpg)"></div>
-					</div>
-				</div>
-				<div class="general_info_content">
-					<div class="general_info_content_inner mCustomScrollbar" data-mcs-theme="minimal-dark">
-						<div class="general_info_title">General Information</div>
-						<ul class="general_info_list">
-							<li class="d-flex flex-row align-items-center justify-content-start">
-								<div class="general_info_icon d-flex flex-column align-items-start justify-content-center"><img src="images/icon_1.png" alt=""></div>
-								<div class="general_info_text">Name: <span>Matthew D. Zemek</span></div>
-							</li>
-							<li class="d-flex flex-row align-items-center justify-content-start">
-								<div class="general_info_icon d-flex flex-column align-items-start justify-content-center"></div>
-								<div class="general_info_text">Location: <span>Seattle WA</span></div>
-							</li>
-							<li class="d-flex flex-row align-items-center justify-content-start">
-								<div class="general_info_icon d-flex flex-column align-items-start justify-content-center"><img src="images/icon_2.png" alt=""></div>
-								<div class="general_info_text">Position: <span>Seeking New Employment</span></div>
-							</li>
-							<li class="d-flex flex-row align-items-center justify-content-start">
-								<div class="general_info_icon d-flex flex-column align-items-start justify-content-center"><img src="images/icon_3.png" alt=""></div>
-								<div class="general_info_text"><a href="mailto:panzemek@gmail.com?subject=Job_Inquiry">panzemek@gmail.com</a></div>
-							</li>
-							<li class="d-flex flex-row align-items-center justify-content-start">
-								<div class="general_info_icon d-flex flex-column align-items-start justify-content-center"><img src="images/icon_4.png" alt=""></div>
-								<div class="general_info_text">+1 206 579 4995</div>
-							</li>
-							<li class="d-flex flex-row align-items-center justify-content-start">
-								<div class="general_info_icon d-flex flex-column align-items-start justify-content-center"><img src="images/icon_5.png" alt=""></div>
-								<div class="general_info_text"><a href="mailto:panzemek@gmail.com">www.mytemplatename.com</a></div>
-							</li>
-						</ul>
+          <!-- Main Content -->
 
-						<!-- Social -->
-						<div class="social_container">
-							<ul class="d-flex flex-row align-items-start justify-content-start">
-								<li><a href="https://www.linkedin.com/in/matthew-zemek-89607a117/"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
+          <div class="main_content">
+            <div
+              class="main_title_container d-flex flex-column align-items-start justify-content-end"
+            >
+              <div class="main_subtitle">MERN Stack Developer</div>
+              <div class="main_title">Matthew D. Zemek</div>
+            </div>
+            <div
+              class="main_content_scroll mCustomScrollbar"
+              data-mcs-theme="minimal-dark"
+            >
+              <div class="about_content">
+                <div class="about_title">Description</div>
+                <div class="about_text">
+                  <p>
+                    I am a graduate of the University of Washington coding
+                    bootcamp, having recently earned my certificate from the
+                    program. However, I've been a logic nerd my entire life; one
+                    of the first things I did as a child when our family got its
+                    first computer was to seek out all the logic puzzles I could
+                    find online to solve for fun. In hindsight, that was
+                    probably a sign, and the fascination for deducing solutions
+                    never really left. It did take a bit to figure out that I
+                    could do so for profit as well as fun, but now that I am
+                    here I'm eager to apply those same logical problem-solving
+                    skills in a professional capacity. <br />
+                    <br />
 
-			<!-- Main Content -->
+                    My technical experience prior to the certificate program was
+                    varied and often improvised. I tended to gravitate towards
+                    (or, in some cases, be thrust into) technical roles at my
+                    various positions. Sometimes this was part of the plan, such
+                    as hiring on for the Christmas season at Nintendo when the
+                    Wii U was released as end-line network support. Sometimes it
+                    developed over time, like when a construction company
+                    start-up I was working for realized they didn't have any
+                    experience with their new accounting software and I was the
+                    only one on staff who could figure out how to use it. In
+                    still other cases it was quite simply due to panic, as was
+                    the case when all the building staff who knew how to operate
+                    the camera systems had left and I was, despite being there
+                    to temporarily fill in the gap, the only one there able to
+                    learn them before the police arrived after an assault had
+                    taken place. <br /><br />In each case, the theme has
+                    remained consistent: Make it work. In some cases there was
+                    more support for doing so, and in some less - my preference
+                    is, certainly, to have a plan for how we'll get there - but
+                    improvising when things were at risk of falling apart has
+                    been a skill I've been forced to acquire. I thus have
+                    practice putting out fires, a few times literally. Whatever
+                    position I find myself in I will continue to adapt as I have
+                    all along.
+                  </p>
+                </div>
 
-			<div class="main_content">
-				<div class="main_title_container d-flex flex-column align-items-start justify-content-end">
-					<div class="main_subtitle">HTML5 & CSS Developer</div>
-					<div class="main_title">Matthew D. Zemek</div>
-				</div>
-				<div class="main_content_scroll mCustomScrollbar" data-mcs-theme="minimal-dark">
-					<div class="about_content">
-						<div class="about_title">Description</div>
-						<div class="about_text">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae sapien porttitor, dignissim quam sit amet, aliquam lorem. Fusce id ligula non risus mollis consectetur. Nam lobortis, erat quis pulvinar dignissim, velit ligula ullamcorper ipsum, at sodales elit odio at velit. Sed a est a quam mattis suscipit. Proin et faucibus diam.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae sapien porttitor, dignissim quam sit amet, aliquam lorem. Fusce id ligula non risus mollis consectetur. Nam lobortis, erat quis pulvinar dignissim, velit ligula ullamcorper ipsum, at sodales elit odio at velit. Sed a est a quam mattis suscipit.</p>
-						</div>
+                <!-- Loaders -->
 
-						<!-- Loaders -->
+                <div class="loaders clearfix">
+                  <!-- Loader -->
+                  <div class="loader_container">
+                    <div class="loader" data-perc="0.75"></div>
+                    <div class="loader_content text-center">
+                      <div class="loader_title">ingenuity</div>
+                      <div class="loader_subtitle">
+                        Hmm, will this work? ...it will!
+                      </div>
+                    </div>
+                  </div>
 
-						<div class="loaders clearfix">
+                  <!-- Loader -->
+                  <div class="loader_container">
+                    <div class="loader" data-perc="0.83"></div>
+                    <div class="loader_content text-center">
+                      <div class="loader_title">sheer stubborness</div>
+                      <div class="loader_subtitle">
+                        I <b>shall</b> defeat you, foul bug!
+                      </div>
+                    </div>
+                  </div>
 
-							<!-- Loader -->
-							<div class="loader_container">
-								<div class="loader" data-perc="0.75"></div>
-								<div class="loader_content text-center">
-									<div class="loader_title">intuition</div>
-									<div class="loader_subtitle">Etiam nec odio vestibulum est.</div>
-								</div>
-							</div>
-							
-							<!-- Loader -->
-							<div class="loader_container">
-								<div class="loader" data-perc="0.83"></div>
-								<div class="loader_content text-center">
-									<div class="loader_title">creativity</div>
-									<div class="loader_subtitle">Odio vestibulum est mattis.</div>
-								</div>
-							</div>
+                  <!-- Loader -->
+                  <div class="loader_container">
+                    <div class="loader" data-perc="0.29"></div>
+                    <div class="loader_content text-center">
+                      <div class="loader_title">pure luck</div>
+                      <div class="loader_subtitle">
+                        It's working now? But I didn't change anything!
+                      </div>
+                    </div>
+                  </div>
 
-							<!-- Loader -->
-							<div class="loader_container">
-								<div class="loader" data-perc="0.25"></div>
-								<div class="loader_content text-center">
-									<div class="loader_title">pure luck</div>
-									<div class="loader_subtitle">Vestibulum est mattis effic.</div>
-								</div>
-							</div>
+                  <!-- Loader -->
+                  <div class="loader_container">
+                    <div class="loader" data-perc="0.99"></div>
+                    <div class="loader_content text-center">
+                      <div class="loader_title">arbitrary metrics</div>
+                      <div class="loader_subtitle">
+                        They do catch the eye, don't they?
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div align="center">
+        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+        Copyright &copy;<script>
+          document.write(new Date().getFullYear());
+        </script>
+        All rights reserved | Template provided by
+        <i class="fa fa-heart-o" aria-hidden="true"></i> by
+        <a href="https://colorlib.com" target="_blank">Colorlib</a>
+        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+      </div>
+    </div>
 
-							<!-- Loader -->
-							<div class="loader_container">
-								<div class="loader" data-perc="0.95"></div>
-								<div class="loader_content text-center">
-									<div class="loader_title">awesomeness</div>
-									<div class="loader_subtitle">Vestibulum est mattis effic.</div>
-								</div>
-							</div>
-
-						</div>
-					</div>
-				</div>
-
-			</div>
-		</div>
-
-
-	</div>
-<div align='center'>
-	<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
-
-</div>
-
-<script src="js/jquery-3.2.1.min.js"></script>
-<script src="styles/bootstrap-4.1.2/popper.js"></script>
-<script src="styles/bootstrap-4.1.2/bootstrap.min.js"></script>
-<script src="plugins/greensock/TweenMax.min.js"></script>
-<script src="plugins/greensock/TimelineMax.min.js"></script>
-<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
-<script src="plugins/greensock/animation.gsap.min.js"></script>
-<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
-<script src="plugins/progressbar/progressbar.js"></script>
-<script src="plugins/mCustomScrollbar/jquery.mCustomScrollbar.js"></script>
-<script src="plugins/easing/easing.js"></script>
-<script src="plugins/parallax-js-master/parallax.min.js"></script>
-<script src="js/custom.js"></script>
-</body>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="styles/bootstrap-4.1.2/popper.js"></script>
+    <script src="styles/bootstrap-4.1.2/bootstrap.min.js"></script>
+    <script src="plugins/greensock/TweenMax.min.js"></script>
+    <script src="plugins/greensock/TimelineMax.min.js"></script>
+    <script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+    <script src="plugins/greensock/animation.gsap.min.js"></script>
+    <script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+    <script src="plugins/progressbar/progressbar.js"></script>
+    <script src="plugins/mCustomScrollbar/jquery.mCustomScrollbar.js"></script>
+    <script src="plugins/easing/easing.js"></script>
+    <script src="plugins/parallax-js-master/parallax.min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
 </html>
